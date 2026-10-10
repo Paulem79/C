@@ -3,7 +3,7 @@
 int main(void) {
     char nom[30];
     printf("Quel est ton nom ? \n");
-    scanf("%s", &nom);
+    scanf("%29s", nom);
     printf("Tu t'appelles %s", nom);
 
 
